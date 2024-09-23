@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333; /* Dark background for header */
+    color: white;
+    padding: 15px 0; /* Increased padding for better spacing */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Space between menu items */
+}
+
+nav ul li a {
+    color: white; /* White text for links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    color: #ff5722; /* Change color on hover */
+}
+
+.book-now {
+    background-color: #ff5722; /* Button color */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.book-now:hover {
+    background-color: #e64a19; /* Darker shade on hover */
+}
+
+.confirmation {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.confirmation h1 {
+    margin-bottom: 20px;
+    color: #333; /* Darker color for the heading */
+}
+
+.confirmation p {
+    margin-bottom: 15px;
+    color: #555; /* Lighter color for the paragraph text */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333; /* Same as header */
+    color: white;
+}
+
